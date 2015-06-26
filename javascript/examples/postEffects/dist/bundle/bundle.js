@@ -63,7 +63,8 @@ p.constructor = ViewPlane;
 
 p._init = function() {
 	gl = GL.gl;
-	this.mesh = bongiovi.MeshUtils.createPlane(100, 100, 1);
+	var size = 200;
+	this.mesh = bongiovi.MeshUtils.createPlane(size, size, 1);
 	// this.mesh = bongiovi.MeshUtils.createSphere(100, 24);
 
 };
